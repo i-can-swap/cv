@@ -1,27 +1,155 @@
 body
 {
-	background-color:#303960;
+	background-color:#3da4ab;
 	margin:0px;
+	text-align:center;
+	font-family: 'Merriweather', serif;
+	color:#aacfcf;
+}
+a
+{
+	text-decoration:none;
+	color:#aacfcf;
+	font-family: 'Montserrat', sans-serif;
 }
 .top-container
 {
-	background-color:#ea9a96;
+	background-color:#0e9aa7;
+	padding:320px 320px 0 320px;
+	position:relative;
+}
+
+.title-text
+{
+	font-family: 'Sacramento', cursive;
+	color:#aacfcf;
 }
 h1
 {
-	margin-top:0px;
-	display:inline;
+	font-size:5.625rem; /* make text dynamic ** 100% = 16px => 90px = 90/16 = 562.5% ** 1rem = 16px => 90px = 90/16 = 5.625rem ** use rem instead of em as it ignores parent em values */
+	margin:50px auto 0 auto;
+	font-family: 'Sacramento', cursive;
+	line-height:1.5; /* default line height  is 1 => 16px ** the value would be a multiple of 16 i.e n => 16*n ** Don't use no of pixels directly here*/
 }
-
+h2
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:2.5rem;
+	font-weight:normal;
+}
+h3
+{
+	font-family: 'Montserrat', sans-serif;
+	margin:0;
+}
+hr
+{
+	border-top:10px dotted;
+	border-bottom:0px;
+	height:0px;
+	width:7%;
+	margin:70px auto 70px auto;
+	color:#aacfcf;
+}
 .middle-container
 {
-	
+	padding-top:100px;
 	
 }
-
+.pro-pic
+{
+	width:20%;
+}
 .bottom-container
 {
-	
+ background-color:#0e9aa7;
+ padding:80px 0 50px 0;
 }
-	
+.bottom-cloud
+{
+	position:absolute;
+	left:300px;
+	bottom:250px;
+}
+.footer-link
+{
+	margin:10px 20px;
+}
+a:hover
+{
+	color:#2fc4b2;
+}
+.l-align{
+	text-align:left;
+	linr-height:2;
+}
+.top-cloud
+{
+	position:absolute;
+	right:300px;
+	top:50px;
+}
+.java-img
+{
+	border-radius:50%;
+	width:20%;
+	float:left; /* to wrap text around an image ** use clear to disable text to wrap around an image * takes same parameters left, right */
+	margin-right:30px;
+}
+.comp-img
+{
+	border-radius:50%;
+	width:20%;
+	float:right;
+	margin-left:30px;
+}
+.skill-row
+{
+	width:50%;
+	margin:0 auto 150px auto; /* Use auto value of margin to center the element if it gets displaced after changes */
+	padding:20px;
+}
+.contact-me
+{
+	margin:30px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #0e9aa7, #3da4ab);
+  background-image: -moz-linear-gradient(top, #0e9aa7, #3da4ab);
+  background-image: -ms-linear-gradient(top, #0e9aa7, #3da4ab);
+  background-image: -o-linear-gradient(top, #0e9aa7, #3da4ab);
+  background-image: linear-gradient(to bottom, #0e9aa7, #3da4ab);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
 
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #2fc4b2, #12947f);
+  background-image: -moz-linear-gradient(top, #2fc4b2, #12947f);
+  background-image: -ms-linear-gradient(top, #2fc4b2, #12947f);
+  background-image: -o-linear-gradient(top, #2fc4b2, #12947f);
+  background-image: linear-gradient(to bottom, #2fc4b2, #12947f);
+  text-decoration: none;
+}
+p
+{
+	line-height:2;
+}
+.copy
+{
+	font-size:0.75rem;
+	padding:20px 0;
+	margin:auto;
+}
+.contact-message
+{
+	padding-bottom:15px;
+}
